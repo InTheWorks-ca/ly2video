@@ -13,4 +13,5 @@ jobs:
       uses: JackMcKew/pyinstaller-action-windows@python3-10-pyinstaller-5-3
       with:
         path: ly2video
+        spec: ../github.spec
         requirements: ../requirements.txt
