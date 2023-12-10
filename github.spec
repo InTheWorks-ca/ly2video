@@ -1,4 +1,4 @@
-a = Analysis(['cli.py'],
+a = Analysis(['ly2video/cli.py'],
          pathex=['ly2video'],
          binaries=None,
          datas=None,
