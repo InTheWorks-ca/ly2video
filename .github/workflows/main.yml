@@ -12,9 +12,9 @@ jobs:
     - name: PyInstaller Windows
       uses: JackMcKew/pyinstaller-action-windows@python3-10-pyinstaller-5-3
       with:
-        path: src
+        path: ly2video
 
     - uses: actions/upload-artifact@v2
       with:
-        name: my-exe
-        path: src/dist/windows # or path/to/artifact
+        name: ly2video.exe
+        path:  # or path/to/artifact
