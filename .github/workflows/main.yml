@@ -13,8 +13,3 @@ jobs:
       uses: JackMcKew/pyinstaller-action-windows@python3-10-pyinstaller-5-3
       with:
         path: ly2video
-
-    - uses: actions/upload-artifact@v2
-      with:
-        name: ly2video.exe
-        path:  # or path/to/artifact
