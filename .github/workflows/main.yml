@@ -13,3 +13,4 @@ jobs:
       uses: JackMcKew/pyinstaller-action-windows@python3-10-pyinstaller-5-3
       with:
         path: ly2video
+        requirements: ../requirements.txt
