@@ -1,0 +1,11 @@
+a = Analysis(['cli.py'],
+         pathex=['ly2video'],
+         binaries=None,
+         datas=None,
+         hiddenimports=[],
+         hookspath=None,
+         runtime_hooks=None,
+         excludes=None)
+pyz = PYZ(a.pure)
+exe = EXE(pyz,... )
+coll = COLLECT(...)
